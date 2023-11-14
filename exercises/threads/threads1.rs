@@ -7,8 +7,8 @@ use std::thread;
 use std::time::Duration;
 
 
-fn main() {
 
+fn main() {
     let mut handles = vec![];
     for i in 0..10 {
         handles.push( thread::spawn(move || {
